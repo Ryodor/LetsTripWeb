@@ -1,0 +1,22 @@
+{
+  "name": "letstripweb",
+  "version": "1.0.0",
+  "description": "website letstrip",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryodor/LetsTripWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryodor/LetsTripWeb/issues"
+  },
+  "homepage": "https://github.com/Ryodor/LetsTripWeb#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
