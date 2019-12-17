@@ -1,0 +1,30 @@
+
+Voici la liste des installations à faire pour initialiser le serveur et ses services.
+
+Important - Lorsque vous récupérez le projet pour la première fois, vous n'aurez qu'à faire 
+            un "npm i" afin que npm mette à jour les packages.
+
+Attention - En cas de conflit, executez la commande "npm audit fix" à la racine du projet.
+
+Initialisation - "npm init" pour initier le server node
+               - "npm install express  --save" pour installer express
+               - "npm install --save mysql express" Pour pouvoir utiliser mysql avec express
+               - "npm install -g nodemon" permet une gestion du server par nodemon, plus besoin de 
+                  s'en occuper, le server restart à chaque modification du code.
+               - "npm install ejs -g" et "npm install ejs --save" sert à la génération des pages depuis 
+                  le server
+
+Lancement du server - "nodemon app.js" puis vous n'avez plus qu'à tester en allant sur "http://localhost:2042"
+Important : - Penser à vous créer une base de donnée
+            - Et bien sur à paramétrer le fichier "dbConnection.js" avec vos identifiants
+
+Attention : - Il se peut qu'une erreure "Impossible de charger le fichier [...], car l’exécution de 
+              scripts est désactivée sur ce système." se déclenche au moment d'effectur la commande 
+              "nodemon app.js". Dans se cas démarrer un PowerShell en administrateur et lancer la 
+              commande "Set-ExecutionPolicy RemoteSigned" puis valider.
+
+Rendez-vous à l'adresse "http://localhost:2042/" depuis un navigateur pour atteindre la première page.
+
+            /* Vous aurez un tuto complet plus tard, voir un script d'automatisation vue que c'est demandé
+               pour le rendu final */ 
+

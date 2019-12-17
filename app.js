@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
     res.send('Hello World!')
   })
 
-/** Ouverture du server sur le port 3000 */
+/** Ouverture du server sur le port 2042 */
 app.listen(3000, function () {
-  console.log('Express listening on port 3000!')
+  console.log('Express listening on port 2042!')
 })
