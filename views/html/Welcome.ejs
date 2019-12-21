@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Let's Trip </title>
+    <link rel="stylesheet" type="text/css" href="/Css/home.css">
+</head>
+
+
+<div class="containerWelcome">
+    <p>WELCOME TO TROK </p>
+
+    <p>Let's go to travel as a team!</p>
+
+    <div class="progressWrapper">
+        <div class="progressContainer">
+            <div class="progressFill"></div>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- Do not touch this block, it can manage the timer -->
+<span id="chronotime" hidden>0:00:00:00</span>
+<form name="chronoForm" hidden>
+    <input type="button" name="startstop" value="start!" onClick="chronoStart()" />
+    <input type="button" name="reset" value="reset!" onClick="chronoReset()" />
+</form>
+
+<script type="text/javascript" src="../js/welcome.js"></script>
+</body>
+
+</html>
