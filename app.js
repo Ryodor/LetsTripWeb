@@ -5,6 +5,7 @@ const routes = require('./routers/router.js')
 
 /** Déclaration des dossiers pour pouvoir envoyer leurs contenues au client */
 app.use(express.static(__dirname + '/views'));
+app.use('/blocks', express.static('views/blocks'));
 app.use('/css', express.static('views/css'));
 app.use('/images', express.static('views/images'));
 
