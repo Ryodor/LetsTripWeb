@@ -5,7 +5,6 @@ const routes = require('./routers/router.js')
 
 /** Déclaration des dossiers pour pouvoir envoyer leurs contenues au client */
 app.use(express.static(__dirname + '/views'));
-app.use('/blocks', express.static('views/blocks'));
 app.use('/css', express.static('views/css'));
 app.use('/images', express.static('views/images'));
 
@@ -15,6 +14,6 @@ app.use('/', routes);
 /** Ouverture du server sur le port 2042, 
  * c'est le port sur lequel le site va tourner. */
 app.listen(3000, function () {
-  console.log('Express listening on port 2042!')
+  console.log('Express listening on port 3000!')
 })
 
