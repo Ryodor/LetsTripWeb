@@ -13,7 +13,7 @@ app.use('/', routes);
 
 /** Ouverture du server sur le port 2042, 
  * c'est le port sur lequel le site va tourner. */
-app.listen(2042, function () {
+app.listen(3000, function () {
   console.log('Express listening on port 2042!')
 })
 

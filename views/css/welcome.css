@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(108, 135, 194);
+}
+
+.wallpaper {
+  height: 100%;
+}
+
+.wallpaper::after {
+  content: "";
+  background-image: url("../images/Alpes_wall.jpg");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.containerWelcome{
+  text-align: center;
+  margin-top: 2%;
+  padding: 0px;
+}
+
+.titlePage{
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+  text-transform: uppercase;
+}
+
+.slogan{
+  font-size: 35px;
+  color: rgb(255, 255, 255);  
+  padding:  0px;
+}
+
