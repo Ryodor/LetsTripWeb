@@ -1,0 +1,8 @@
+- users : contient les informations des utilisateurs
+- users_password : lien entre users et passwords, permettra de gérer les mots de passes utilisateurs
+- passwords : contient les informations sur chaque mot de passe
+- roadmap : contient les informations de la roadmap. Administrator est celui qui crée la roadmap.
+- country et roadmap_country : permet de préciser le ou les de la roadmap
+- walls : c'est le mur des postes de la roadmap
+- conversations : les informations sur la conversation du voyages
+- message : chaque message et qui les a envoyé
