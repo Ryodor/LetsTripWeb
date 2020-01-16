@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Let's Trip</title>
+    <link rel="stylesheet" type="text/css" href="/css/global.css" />
+    <link rel="stylesheet" type="text/css" href="/css/registration.css" />
+</head>
+
+<body>
+    <div class="wallpaper">
+        <!-- BODY -->
+        <div class="containerWelcome">
+            <h1 class="titlePage">Nouveau Voyageur</h1>
+            <p class="slogan">Let's go to travel as a team!</p>
+        </div>
+
+        <div class="registration_menu">
+            <div>
+                <p class="error_message" id="error_message"></p>
+                <p class="sucess_message" id="sucess_message"></p>
+            </div>
+            <div>
+                <input class="inputText" placeholder="Nom" type="text" id="last_name" />
+            </div>
+            <div>
+                <input class="inputText" placeholder="Prénom" type="text" id="first_name" />
+            </div>
+            <div>
+                <input class="inputText" placeholder="Email" type="email" id="email" />
+            </div>
+            <div>
+                <input class="inputText" placeholder="Mot de Passe" type="password" id="password1" />
+            </div>
+            <div>
+                <input class="inputText" placeholder="Confirmer le mot de passe" type="password" id="password2" />
+            </div>
+            <div>
+                <input type="submit" value="S'enregistrer" id="bt_submit" onclick="new_user()">
+            </div>
+        </div>
+
+        <!-- BODY END -->
+    </div>
+    <script type="text/javascript" src="../js/lib.js"></script>
+    <script type="text/javascript" src="../js/registration.js"></script>
+</body>
+
+</html>

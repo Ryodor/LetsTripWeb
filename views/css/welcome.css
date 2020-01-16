@@ -1,102 +1,86 @@
-body {
-  background-color: rgb(108, 135, 194);
+.containerWelcome {
+    text-align: center;
+    margin-top: 2%;
+    padding: 0px;
 }
 
-.wallpaper {
-  height: 100%;
+.titlePage {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    text-transform: uppercase;
 }
 
-.wallpaper::after {
-  content: "";
-  background-image: url("../images/Alpes_wall.jpg");
-  background-repeat: no-repeat;
-  background-position: center; /* Center the image */
-  background-size: cover;
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-
-.containerWelcome{
-  text-align: center;
-  margin-top: 2%;
-  padding: 0px;
-}
-
-.titlePage{
-  font-size: 50px;
-  color: rgb(255, 255, 255);
-  padding: 0px;
-  text-transform: uppercase;
-}
-
-.slogan{
-  font-size: 35px;
-  color: rgb(255, 255, 255);  
-  padding:  0px;
+.slogan {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    padding: 0px;
 }
 
 .login_menu {
     text-align: center;
 }
 
-.login_menu  > div {
-  margin:10px;
+.login_menu>div {
+    margin: 10px;
 }
 
-.gapbox{
-  width: 48%;
-  display: inline-block;
+.gapbox {
+    width: 48%;
+    display: inline-block;
 }
 
-.join_roadmap{
-  width: 350px;
-  display: inline-block;
-  color: aliceblue;
-  margin: auto;
+.join_roadmap {
+    width: 350px;
+    display: inline-block;
+    color: aliceblue;
+    margin: auto;
 }
 
-.connection{
-  width: 350px;
-  display: inline-block;
-  color: aliceblue;
-  margin: auto;
+.connection {
+    width: 350px;
+    display: inline-block;
+    color: aliceblue;
+    margin: auto;
 }
 
-.vertibar{
-  border-left: 3px solid rgb(255, 255, 255);
-  height: 200px;
-  display: inline-block;
+.vertibar {
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 200px;
+    display: inline-block;
 }
 
 .inputText {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-size: 14px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
 }
 
 input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 14px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+    background-color: #45a049;
+}
+
+.new_account {
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
 }

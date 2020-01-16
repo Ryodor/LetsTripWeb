@@ -1,33 +1,37 @@
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <title>Let's Trip</title>
+    <link rel="stylesheet" type="text/css" href="/css/global.css" />
     <link rel="stylesheet" type="text/css" href="/css/welcome.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="wallpaper">
-      <!-- BODY -->
-      <div class="containerWelcome">
-        <h1 class="titlePage">Welcome to let's trip</h1>
-        <p class="slogan">Let's go to travel as a team!</p>
-      </div>
-
-      <div class="login_menu">
-        <!-- Nouvelle manière de faire des includes -->
-        <div class="gapbox">
-          <%- include('../blocks/connection.html') %>
+        <!-- BODY -->
+        <div class="containerWelcome">
+            <h1 class="titlePage">Welcome to let's trip</h1>
+            <p class="slogan">Let's go to travel as a team!</p>
         </div>
-        <!--<div class="gapbox">
+
+        <div class="login_menu">
+            <!-- Nouvelle manière de faire des includes -->
+            <div class="gapbox">
+                <%- include('../blocks/welcome/connection.html') %>
+            </div>
+            <!--<div class="gapbox">
           <div class="vertibar"></div>
         </div>-->
-        <div class="gapbox">
-          <%- include('../blocks/join_roadmap.html') %>
+            <div class="gapbox">
+                <%- include('../blocks/welcome/join_roadmap.html') %>
+            </div>
         </div>
-      </div>
 
-      <!-- BODY END -->
+        <!-- BODY END -->
     </div>
+    <script type="text/javascript" src="../js/lib.js"></script>
     <script type="text/javascript" src="../js/welcome.js"></script>
-  </body>
+</body>
+
 </html>
