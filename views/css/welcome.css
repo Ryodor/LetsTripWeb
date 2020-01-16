@@ -9,6 +9,9 @@ body {
 .wallpaper::after {
   content: "";
   background-image: url("../images/Alpes_wall.jpg");
+  background-repeat: no-repeat;
+  background-position: center; /* Center the image */
+  background-size: cover;
   opacity: 0.5;
   top: 0;
   left: 0;
@@ -17,6 +20,7 @@ body {
   position: absolute;
   z-index: -1;
 }
+
 
 .containerWelcome{
   text-align: center;
