@@ -1,0 +1,2 @@
+Graphique : 
+Welcome - décalage verticale entre "join road map" et "connection", alligner les blocs 

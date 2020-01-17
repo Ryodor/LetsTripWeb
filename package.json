@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/Ryodor/LetsTripWeb#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
+    "moment": "^2.24.0",
     "mysql": "^2.17.1"
   }
 }
